@@ -286,7 +286,7 @@ html{
     font-style: italic;
 }
 .contact-infor{
-    /* width: 100%; */
+      /* width: 100%; */
 }
 .contact-infor .address{
     width: 49%; 
@@ -301,19 +301,35 @@ html{
     display: inline-block;
 }
 .input-control {
-    width: 49.424%;
+    width: 49.423%;
     padding: 4px;
     outline-color: #0389f74d;
 }
 .send-btn:hover{
-    background-color:#ccc;
+    background-color:#ccc !important;
     cursor: pointer;
-    color: black;
+    color: black !important;
 }
 .map-img{
     width: 100%;
+    filter: grayscale(50%);
 }
 #footer{
     padding: 64px 16px;
-    height: 500px;
+    text-align: center;
+}
+#footer i{
+    font-size: 20px;
+    opacity: 0.6;
+}
+#footer p{
+    margin: 15px 0;
+    opacity: 0.6;
+}
+#footer a{
+    font-size: 15px;
+    color: #000;
+}
+#footer i:hover{
+    opacity: 0.3;
 }
